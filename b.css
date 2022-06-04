@@ -1,10 +1,22 @@
+@keyframes fadeIn {
+    from { 
+      opacity: 0;
+      transform: scale(0);
+    }
+      to { 
+      opacity: 1;
+      transform: scale(1);
+    }
+}
 .navbar {
     overflow: hidden;
     background-color: #333;
     position: fixed;
     top: 0;
-    width: 100%;
+    /* width: 100%; */
+    border-radius: 10px;
     transition-duration: 0.5s;
+    animation: fadeIn 1s;
   }
   
   .navbar a {
@@ -17,6 +29,7 @@
     text-decoration: none;
     font-size: 17px;
     transition-duration: 0.4s;
+    animation: fadeIn 2s;
   }
   
   .navbar a:hover {
