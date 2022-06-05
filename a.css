@@ -12,6 +12,7 @@ body{
     padding: 10px;
     border-radius: 10px;
     backdrop-filter: blur(13px);
+    transition-duration: 5s;
 }
 a{
     padding: 10px;
